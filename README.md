@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+My application will be a website where users can log on with their friends to decide what movie to watch. Everyone can submit up to 3 movies, then they will be able to vote together live to see which movie they would most like to watch! While native functionality will be build in to make this more natural with movies, it could also be used to decide between different activities, which restaurant to go to, or other decisions that are often hard to make in group settings!
 
 
 > [!NOTE]
@@ -18,15 +18,15 @@ A brief description of the application here. Lorem ipsum dolor sit amet, consect
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
 - [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Have you ever sat down with your friends or family to watch a movie, but 30 minutes later you are still arguing over what to watch? If so, this is the site for you! This website allows you to log on with your friends and each person can submit up to 3 movies that they are interested in watching. With the build in voting feature, each person can give each movie a `very interested`, `mildly interested`, or `okay, but not my prefered watch` rating. Watch your friends/family vote in real time, and then _voila!_ You can see the top picks liked by all of you to help you decide what movie you want to watch!
 
 ### Design
 
@@ -43,20 +43,20 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Vote live with your friends based on what movie you would like to watch
+- Different teir levels of voting to express how interested you are in a particular movie from very interested to not-at-all.
+- Covers of movies shown, with descriptions available from the Streaming Availability API _(descriptions may be left out if too pricy)_
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - HTML page allowing users to sign in to a group, and another page where they can do the actual voting and searching for movies.
+- **CSS** - Prettyification. Making sure that the site looks good in all environments, including desktop and computer. Nice theme and clear indications of where a user should go.
+- **React** - Javascript and React will be used to implement the interactivity of new menus generated during voting and showing what movies are on top.
+- **Service** - Services used to obtain photos of the movies selected, obtain streaming information for the movies (i.e, where to watch them), and optional links to a trailer/description for those who are not familiar with the film. Also used to implement the voting system.
+- **DB/Login** - Must login in order to join a group and vote. Previous choices shared and option to mark movies they have already seen.
+- **WebSocket** - Live broadcasting of votes to between members so they can watch the votes unfold live.
 
 ## 🚀 AWS deliverable
 
