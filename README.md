@@ -21,11 +21,11 @@ Have you ever sat down with your friends or family to watch a movie, but 30 minu
 ### Design
 
 Vertical Phone
-![Phone without Menu](PENUP_20250114_222953.png)
+![Phone without Menu](images/PENUP_20250114_222953.png)
 Desktop
-![Desktop View](PENUP_20250114_223129.png)
+![Desktop View](images/PENUP_20250114_223129.png)
 Vertical Phone with Dropdown Menu
-![Phone with Menu](PENUP_20250114_223016.png) 
+![Phone with Menu](images/PENUP_20250114_223016.png) 
 
 
 The Goal of this design is to be simple and intuitive. There is a clear place to choose what movie you want throug a search bar, and that will add it to the voting. Voters can give movies 1, 2, or 3 points if they want to watch them, and can see the results live in the graph shown at the bottom.
