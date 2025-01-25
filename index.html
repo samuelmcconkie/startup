@@ -18,15 +18,33 @@
         </div>
     </header>
 
-    <div class="login">
-        <h1>Login</h1>
-        <form action="main.html" method="post">
-            <label for="username"></label>
-            <input type="text" name="username" placeholder="Username" id="username" required>
-            <label for="password"></label>
-            <input type="password" name="password" placeholder="Password" id="password" required>
-            <input type="submit" value="Login">
-        </form>
-    </div>
+    <main>
+        <div class="join">
+            <h1>Join Room</h1>
+            <p>Join a room that a friend has created using the 4 digit Room ID</p>
+            <form action="main.html" method="post">
+                <label for="name"></label>
+                <input type="text" name="name" placeholder="Name" id="name" required>
+                <label for="room"></label>
+                <input type="text" name="room" placeholder="Room ID" id="room" required>
+                <input type="submit" value="Join">
+            </form>
+        </div>
+        <div class="create">
+            <h1>Create Room</h1>
+            <p>Create a room for your friends to join</p>
+            <form action="main.html" method="post">
+                <label for="name"></label>
+                <input type="text" name="name" placeholder="Name" id="name" required>
+                <input type="submit" value="Join">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Author Name:</p>
+        <p><a href="https://github.com/samuelmcconkie/startup">Samuel McConkie</a></p>
+    </footer>
+
 
 </html>
