@@ -20,14 +20,40 @@
 
     <main>
         <h2>Room [ROOM ID]</h2>
-        <form>
+        <container class="movies">
+            <div class="movie">
+                <img src="https://m.media-amazon.com/images/I/A1M0qlxNo6L.jpg" alt="Mission Impossible" class="movie-poster">
+                <span class = "movie-name">Mission Impossible</span>
+                <input type="button" value="vote" class="vote-button">
+            </div>
+            <div class="movie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn_bv9eall2gRFEFCwnX7pCMBOX38abggGwA&s" alt="Avengers End Game" class="movie-poster">
+                <span class = "movie-name">Avengers End Game</span>
+                <input type="button" value="vote" class="vote-button">
+            </div>
+            <div class="movie">
+                <img src="https://m.media-amazon.com/images/I/81BtU9dQIJL._AC_UF894,1000_QL80_.jpg" alt="Top Gun: Maverick" class="movie-poster">
+                <span class = "movie-name">Top Gun: Maverick</span>
+                <input type="button" value="vote" class="vote-button">
+            </div>
+            <div class="movie">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTY3NTc4OTYxMF5BMl5BanBnXkFtZTcwMjk5NzUyMw@@._V1_.jpg" alt="National Treasure" class="movie-poster">
+                <span class = "movie-name">National Treasure</span>
+                <input type="button" value="vote" class="vote-button">
+            </div>
+            <div class="movie">
+                <img src="https://i.ebayimg.com/images/g/~gUAAOSwIOthElD4/s-l1200.jpg" alt="Harry Potter" class="movie-poster">
+                <span class = "movie-name">Harry Potter</span>
+                <input type="button" value="vote" class="vote-button">
+            </div>
+        </container>
+        <form action="movies.html" method="get">
             <input type="text" name="search" placeholder="Search for a movie..." id="search" required>
             <input type="submit" value="Search">
         </form>
     </main>
 
     <footer>
-        <p>Author Name:</p>
-        <p><a href="https://github.com/samuelmcconkie/startup">Samuel McConkie</a></p>
+        <p>Author Name: <span><a href="https://github.com/samuelmcconkie/startup">Samuel McConkie</a></span></p>
     </footer>
 </body>

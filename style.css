@@ -1,0 +1,15 @@
+.movie-poster {
+    width: 125px;
+    height: 200px;
+    padding: 0px 0px;
+}
+
+.movie {
+    padding: 0px 0px 15px 0px;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10 px;
+}
